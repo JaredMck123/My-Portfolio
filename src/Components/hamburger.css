@@ -1,0 +1,74 @@
+.hamburger {
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.hamburger:focus {
+  outline: none;
+}
+.hamburger_line {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+.side_drawer {
+  height: 100%;
+  background: whitesmoke;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 400px;
+  width: 70%;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+.side_drawer.open {
+  transform: translateX(0);
+}
+.side_drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.side_drawer li {
+  margin: 0.5rem 0;
+  color: black;
+  width: 100%;
+  padding-top: 10px;
+  height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.side_drawer li:hover {
+  font-size: 22px;
+  background-color: rgba(173, 241, 241, 0.3);
+  color: rgb(59, 109, 245);
+}
+@media (min-width: 696px) {
+  .side_drawer {
+    display: none;
+  }
+}
+
+.linee {
+  background: black;
+  width: 100%;
+  height: 1.5px;
+  margin-top: 0rem;
+}

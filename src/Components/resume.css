@@ -1,0 +1,55 @@
+.resume {
+  width: 100%;
+  background-color: beige;
+}
+
+.line {
+  background: black;
+  width: 100%;
+  height: 0.9px;
+  margin-top: 0rem;
+}
+
+h1 {
+  margin-left: 1rem;
+  margin-bottom: 0rem;
+  padding: 0rem;
+}
+
+.list_head {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.education li,
+.experience li,
+.projects_ li,
+.clubs li,
+.skills li {
+  list-style: none;
+  margin-right: 1rem;
+}
+.space {
+  flex: 0.5;
+}
+
+.list_filler {
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+  list-style: none;
+}
+
+.list_filler2 {
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.list_filler3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  list-style: none;
+}

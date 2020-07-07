@@ -1,0 +1,51 @@
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects p {
+  font-size: 20px;
+}
+.weather_app,
+.calculator_app {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(rgb(204, 204, 204), rgb(122, 122, 122));
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  border-color: solid black;
+}
+
+.sudoku_app,
+.conversion_app {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(rgb(245, 245, 220), rgb(212, 212, 188));
+}
+
+.sudoku_app li,
+.calculator_app li,
+.weather_app li,
+.conversion_app li {
+  list-style: none;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+  text-decoration: underline;
+  font-size: 17px;
+}
