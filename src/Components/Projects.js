@@ -4,6 +4,37 @@ import "./projects.css";
 function Projects() {
   return (
     <div className="projects">
+      <div className="expense_tracker_app">
+        <h1>
+          <u>Expense Tracker</u>
+        </h1>
+
+        <p>
+          This MERN fullstack application functions as an expense tracker.{" "}
+          <br />
+          The user is able to add and delete their expenses and assets, as well
+          as view their <br />
+          transaction history seamlessly in a single page window. <br />
+          This application was built using:
+        </p>
+        <ul>
+          <li>MongoDB</li>
+          <li>Express.JS</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+        </ul>
+
+        <a
+          href="https://github.com/JaredMck123/Expense-Tracker"
+          target="_blank"
+        >
+          <button>See Code</button>
+        </a>
+
+        <a href="https://afternoon-atoll-02626.herokuapp.com" target="_blank">
+          <button>View Live Demo</button>
+        </a>
+      </div>
       <div className="conversion_app">
         <h1>
           <u>Unit Conversion App</u>
@@ -36,6 +67,7 @@ function Projects() {
           <button>View Live Demo</button>
         </a>
       </div>
+
       <div className="weather_app">
         <h1>
           <u> Weather App </u>

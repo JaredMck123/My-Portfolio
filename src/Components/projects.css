@@ -8,7 +8,8 @@
   font-size: 20px;
 }
 .weather_app,
-.calculator_app {
+.calculator_app,
+.expense_tracker_app {
   width: 100%;
   align-items: center;
   text-align: center;
