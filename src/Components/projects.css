@@ -42,7 +42,8 @@ button {
 .sudoku_app li,
 .calculator_app li,
 .weather_app li,
-.conversion_app li {
+.conversion_app li,
+.expense_tracker_app li {
   list-style: none;
   padding: 3px;
   text-align: center;
